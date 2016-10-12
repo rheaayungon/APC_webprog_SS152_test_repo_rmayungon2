@@ -1,0 +1,11 @@
+img {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	margin-bottom:0.1em;
+	border: 1px;
+	border-color: black;
+	}
+img:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	}
