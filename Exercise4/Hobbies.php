@@ -90,7 +90,6 @@
 			<a href="AboutMe.php" targertsel>ABOUT ME &nbsp;&nbsp; 
 			<a href="Gallery.php" targertsel>GALLERY &nbsp;&nbsp;
 			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
-			<a href="Interest.php" targertsel>INTEREST &nbsp;&nbsp; 
 			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
 			<a href="PHP.php" targertsel>PHP Form</center></a>
 		<hr width="60%">
@@ -127,6 +126,53 @@
 							I guess. K-drama gives me an impact. Every story or drama is worth watching.</p></td>
 						<td style="color:black font-size:18px;text-align:center;padding-right:20px">
 							<a href="http://hdfree.se/" target="_blank">HDFree</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<br>
+		<br>
+		<h2>
+			"INTEREST"
+		</h2>
+			<div class="transbox"
+			<table align="center" style="font-family:courier;font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
+				<link rel="stylesheet2" type="text/css" href="stylesheet2.css">
+				<table align="center" style="font-family:courier; font-size:18px; color:black" cellspacing="7">
+					<tr>
+						<th style="font-size:25px;padding-top:30px;padding-left:20px;padding-right:20px"><b>INTEREST</b></th>
+						<th style="font-size:25px;padding-top:30px;padding-left:20px;padding-right:20px"><b>DESCRIPTION</b></th>
+						<th style="font-size:25px;padding-top:30px;padding-left:20px;padding-right:20px"><b>LINK</b></th>
+					</tr>
+					<tr>
+						<td style="padding-left:20px;padding-right:15px">
+							<b>Everyday is Cheat Day!</b></td>
+						<td style="text-align:center; font-size:18px">
+							<p>I can't resist food. I don't love food actually because I'm on a diet
+							but... they say, FOOD IS LIFE. I always check every cafe and restaurant around Manila. Because I want to try them all.
+							And the thing that I hate about food is, it gives me alot of fats and I easily gain weight.</p></td>
+						<td style="color:black font-size:18px;text-align:center;padding-right:20px"><a href="http://zomato.com/" target="_blank">Zomato</a></td>
+					</tr>
+					<tr>
+						<td style="padding-left:20px;padding-right:15px">
+							<b>Design? Arts? Whatever.</b></td>
+						<td style="text-align:center; font-size:18px">
+							<p>I'm not good in arts. But I love arts. I always find them interesting
+							and fun. And as an I.T. student, I want to be a web developer in future, where I create and design websites. Maybe I
+							have a good sense in terms of arts but not that 100% into it. But still, I love it!</p></td>
+					</tr>
+					<tr>
+						<td style="padding-left:20px;padding-right:15px">
+							<b>Fashion</b></td>
+						<td style="text-align:center; font-size:18px">
+							<p>OOTD or Outfit of the Day.. I love basic outfit actually, but still I want
+							it into a fashionista way. Many teenagers are trapped by fashion. As a magnet attracts them with a force they can not control. 
+							Are tossed by the waves of fashion. She makes them dress in a certain way, wear the kind of hairstyle you wear, 
+							hang a piercing or tattoo a design on the skin, listen to music, reading magazines and talking his way. Clothing is a means of 
+							communication: with it you say many things and adolescents have realized that a picture is worth 3000 words and want 
+							to use it to express themselves. As Beyonce said this in her speech as being the year's CFDA Fashion Icon.. ""in Every designer 
+							who works tirelessly to make people think they can write their own story. Y’all are fairy godmothers, magicians, sculptors, and 
+							sometimes even our therapists. </p></td>
 					</tr>
 				</table>
 			</div>

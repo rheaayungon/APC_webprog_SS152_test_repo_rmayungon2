@@ -76,8 +76,7 @@
 			<center><a href="Home.php" targertsel>HOME &nbsp;&nbsp; 
 			<a href="AboutMe.php" targertsel>ABOUT ME &nbsp;&nbsp; 
 			<a href="Gallery.php" targertsel>GALLERY &nbsp;&nbsp;
-			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
-			<a href="Interest.php" targertsel>INTEREST &nbsp;&nbsp; 
+			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp;  
 			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
 			<a href="PHP.php" targertsel>PHP Form</center></a>
 		<hr width="60%">
