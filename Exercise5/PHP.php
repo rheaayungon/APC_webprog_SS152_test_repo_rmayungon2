@@ -184,7 +184,8 @@
 			  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
 			  <span class="error">* <?php echo $genderErr;?></span>
 			  <br><br>
-			  <input type="submit" name="submit" value="Submit">  
+			  <input type="submit" name="submit" value="Submit">
+			  if(isset($_POST['submit']))
 			</form>
 
 			<?php
