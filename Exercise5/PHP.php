@@ -97,10 +97,6 @@
 					<br>
 		<hr width="60%">
 			<center><a href="Home.php" targertsel>HOME &nbsp;&nbsp; 
-			<a href="AboutMe.php" targertsel>ABOUT &nbsp;&nbsp; 
-			<a href="Gallery.php" targertsel>GALLERY &nbsp;&nbsp;
-			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
-			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp;
 			<a href="PHP.php" targetsel>PHP FORM &nbsp;&nbsp;
 			<a href="SQL.php" targetsel>DATA ENTRY</center></a>
 		<hr width="60%">
@@ -185,7 +181,6 @@
 			  <span class="error">* <?php echo $genderErr;?></span>
 			  <br><br>
 			  <input type="submit" name="submit" value="Submit">
-			  if(isset($_POST['submit']))
 			</form>
 
 			<?php
