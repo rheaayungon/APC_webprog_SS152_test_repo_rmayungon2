@@ -98,7 +98,7 @@
 		<hr width="60%">
 		<hr width="60%">
 			<center><a href="Home.php" targertsel>HOME &nbsp;&nbsp; 
-			<a href="AboutMe.php" targertsel>ABOUT ME &nbsp;&nbsp; 
+			<a href="AboutMe.php" targertsel>ABOUT &nbsp;&nbsp; 
 			<a href="Gallery.php" targertsel>GALLERY &nbsp;&nbsp;
 			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
 			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
@@ -108,21 +108,6 @@
 		<h2>
 			"TRIVIAS"
 		</h2>
-		<br>
-						
-		<div class="transbox"
-		<table align="center" style="font-family:courier; font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
-		<br>
-		<p>Since I created my own sample website, I would like</p>
-		<p style="font-family:courier;font-size:20px;color:black;text-align:center">to ask you some questions. All questions are based on</p>
-		<p style="font-family:courier;font-size:20px;color:black;text-align:center">the contents of my website. So, goodluck!</p>
-		<br>
-			<br>
-				<br>
-				
-			</div>
-		</div>
-
 		<div class="transbox"
 		<table align="center" style="font-family:courier; font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
 		<p><b><center>What website did Rhea visits when she wants to watch movies?</b>

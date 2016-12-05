@@ -1,57 +1,3 @@
-				<?php
-			// define variables and set to empty values
-			 $Error = $nameErr = $emailErr = $genderErr = $websiteErr = "";
-			$name = $email = $gender = $comment = $website = "";
-
-			if ($_SERVER["REQUEST_METHOD"] == "POST") {
-			  
-			    $name = test_input($_POST["name"]);
-			    // check if name only contains letters and whitespace
-			    if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
-			      $nameErr = "Only letters and white space allowed"; 
-			      $Error = "Err";
-			    }
-			  
-			  
-			    $email = test_input($_POST["email"]);
-			    // check if e-mail address is well-formed
-			    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-			      $emailErr = "Invalid email format"; 
-			      $Error = "Err";
-			    }
-			  
-			    
-			    $website = test_input($_POST["website"]);
-			    // check if URL address syntax is valid (this regular expression also allows dashes in the URL)
-			    if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
-			      $websiteErr = "Invalid URL";
-			      $Error = "Err";
-
-			    }
-			  
-
-			  if (empty($_POST["comment"])) {
-			    $comment = "";
-			  } else {
-			    $comment = test_input($_POST["comment"]);
-			  }
-
-			  if (empty($_POST["gender"])) {
-			    $genderErr = "Gender is required";
-			    $Error = "Err";
-			  } else {
-			    $gender = test_input($_POST["gender"]);
-			  }
-			}
-
-			function test_input($data) {
-			  $data = trim($data);
-			  $data = stripslashes($data);
-			  $data = htmlspecialchars($data);
-			  return $data;
-			}
-			?>
-
 <html>
 	<title>
 		MIRIFICAL
@@ -150,18 +96,74 @@
 					<br>
 					<br>
 		<hr width="60%">
-			<center><a href="Home.php" targertsel>HOME &nbsp;&nbsp;
+			<center><a href="Home.php" targertsel>HOME &nbsp;&nbsp; 
 			<a href="AboutMe.php" targertsel>ABOUT &nbsp;&nbsp; 
 			<a href="Gallery.php" targertsel>GALLERY &nbsp;&nbsp;
 			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
-			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
-			<a href="PHP.php" targetsel>PHP FORM
+			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp;
+			<a href="PHP.php" targetsel>PHP FORM</center></a>
 		<hr width="60%">
 		<h2>
-			PHP Form Validation
+			"PHP Form Validation"
 		</h2>
 <div class="transbox"
 		<table align="center" style="font-family:courier; font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
+				<?php
+			// define variables and set to empty values
+			$nameErr = $emailErr = $genderErr = $websiteErr = "";
+			$name = $email = $gender = $comment = $website = "";
+
+			if ($_SERVER["REQUEST_METHOD"] == "POST") {
+			  if (empty($_POST["name"])) {
+			    $nameErr = "Name is required";
+			  } else {
+			    $name = test_input($_POST["name"]);
+			    // check if name only contains letters and whitespace
+			    if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+			      $nameErr = "Only letters and white space allowed"; 
+			    }
+			  }
+			  
+			  if (empty($_POST["email"])) {
+			    $emailErr = "Email is required";
+			  } else {
+			    $email = test_input($_POST["email"]);
+			    // check if e-mail address is well-formed
+			    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+			      $emailErr = "Invalid email format"; 
+			    }
+			  }
+			    
+			  if (empty($_POST["website"])) {
+			    $website = "";
+			  } else {
+			    $website = test_input($_POST["website"]);
+			    // check if URL address syntax is valid (this regular expression also allows dashes in the URL)
+			    if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
+			      $websiteErr = "Invalid URL"; 
+			    }
+			  }
+
+			  if (empty($_POST["comment"])) {
+			    $comment = "";
+			  } else {
+			    $comment = test_input($_POST["comment"]);
+			  }
+
+			  if (empty($_POST["gender"])) {
+			    $genderErr = "Gender is required";
+			  } else {
+			    $gender = test_input($_POST["gender"]);
+			  }
+			}
+
+			function test_input($data) {
+			  $data = trim($data);
+			  $data = stripslashes($data);
+			  $data = htmlspecialchars($data);
+			  return $data;
+			}
+			?>
 
 			<p><span class="error">* required field.</span></p>
 			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
@@ -181,7 +183,7 @@
 			  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
 			  <span class="error">* <?php echo $genderErr;?></span>
 			  <br><br>
-			  <input type="submit" name="submit" value="Submit">
+			  <input type="submit" name="submit" value="Submit">  
 			</form>
 
 			<?php

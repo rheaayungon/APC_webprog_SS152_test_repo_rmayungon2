@@ -86,8 +86,7 @@
 			<a href="Gallery.php" targertsel>GALLERY &nbsp;&nbsp;
 			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
 			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
-			<a href="PHP.php" targertsel>PHP Form &nbsp;&nbsp;
-			<a href="SQL.php" targetsel>DATA ENTRY</center></a>
+			<a href="PHP.php" targertsel>PHP Form </center></a>
 		<hr width="60%">
 		<hr width="60%">
 		<br>
