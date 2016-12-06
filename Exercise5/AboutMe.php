@@ -96,7 +96,7 @@
 			<a href="AboutMe.php" targertsel>ABOUT &nbsp;&nbsp; 
 			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
 			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
-			<a href="Form.php" targertsel>PHP Form &nbsp;&nbsp;
+			<a href="Form.php" targertsel>PHP Form &nbsp;&nbsp;</center></a>
 		<hr width="60%">
 		<hr width="60%">	
 		<h2>

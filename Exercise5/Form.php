@@ -150,11 +150,13 @@
 					<br>
 					<br>
 		<hr width="60%">
+		<hr width="60%">
 			<center><a href="Home.php" targertsel>HOME &nbsp;&nbsp;
 			<a href="AboutMe.php" targertsel>ABOUT &nbsp;&nbsp; 
 			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
 			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
-			<a href="Form.php" targetsel>PHP FORM
+			<a href="Form.php" targetsel>PHP FORM </center></a>
+		<hr width="60%">
 		<hr width="60%">
 		<h2>
 			Form Validation
