@@ -56,8 +56,8 @@
 		</style>
 		<head>
 			<div style="padding-left:445px; padding-right:500px;">
-			<img src="lips.png" style="padding-top:1%;position:absolute;top:0;align:center"></a>
-			<img src="img.png" alt="Calligraphy Fonts" style="padding-top:8%; position:relative ;top:90"></a>
+			<img src="lips.png" style="padding-top:1%;position:absolute;align:center;opacity:1.0;filter:alpha(opacity=100)"></a>
+			<img src="img.png" alt="Calligraphy Fonts" style="padding-top:8%;position:relative;top:90;opacity:1.0;filter:alpha(opacity=100)"></a>
 		</div>
 		</head>
 		<br>
@@ -83,10 +83,9 @@
 		<hr width="60%">
 			<center><a href="Home.php" targertsel>HOME &nbsp;&nbsp; 
 			<a href="AboutMe.php" targertsel>ABOUT &nbsp;&nbsp; 
-			<a href="Gallery.php" targertsel>GALLERY &nbsp;&nbsp;
 			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
 			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
-			<a href="PHP.php" targertsel>PHP Form </center></a>
+			<a href="Form.php" targertsel>PHP Form </center></a>
 		<hr width="60%">
 		<hr width="60%">
 		<br>
@@ -104,6 +103,17 @@
 		<br>
 			<br>
 				<br>
+		<center>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+			<a target="_blank" href="babysis.jpg"><img src="babysis.jpg" width="350px" height="250px"> &nbsp;
+			<a target="_blank" href="sb.jpg"><img src="sb.jpg" width="350px" height="250px"> &nbsp;
+			<a target="_blank" href="girlfriends.jpg"><img src="girlfriends.jpg" width="350px" height="250px"> &nbsp; 
+			<br>
+				<br>
+			<a target="_blank" href="travel.jpg"><img src="travel.jpg" width="350px" height="250px"> &nbsp;
+			<a target="_blank" href="cheskadebut.jpg"><img src="cheskadebut.jpg" width="350px" height="250px">
+		</center>
+		<br>
 	<footer>
 		<center>
 		<hr width="70%">

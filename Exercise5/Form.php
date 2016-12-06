@@ -42,9 +42,6 @@
 			  } else {
 			    $gender = test_input($_POST["gender"]);
 			  }
-			
-			if ($Error != "Err"){
-				$sql_query = "INSERT INTO users() VALUES ()"
 			}
 
 			function test_input($data) {
@@ -155,10 +152,9 @@
 		<hr width="60%">
 			<center><a href="Home.php" targertsel>HOME &nbsp;&nbsp;
 			<a href="AboutMe.php" targertsel>ABOUT &nbsp;&nbsp; 
-			<a href="Gallery.php" targertsel>GALLERY &nbsp;&nbsp;
 			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
 			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
-			<a href="PHP.php" targetsel>PHP FORM
+			<a href="Form.php" targetsel>PHP FORM
 		<hr width="60%">
 		<h2>
 			PHP Form Validation
@@ -201,8 +197,9 @@
 			?>
 	</div>
 	</div>
-<footer>
+	<footer>
 		<center>
+		<hr width="70%">
 		<hr width="70%">
 			<b><p style="color:black;margin-top:7em;margin-bottom:0.1em;font-size:12px;font-family:courier">copyrights 2016</b></p>
 			<center><p style="margin-top:0.1em;margin-bottom:0.1em">
