@@ -83,7 +83,6 @@
 		<hr width="60%">
 			<center><a href="Home.php" targertsel>HOME &nbsp;&nbsp; 
 			<a href="AboutMe.php" targertsel>ABOUT &nbsp;&nbsp; 
-			<a href="Gallery.php" targertsel>GALLERY &nbsp;&nbsp;
 			<a href="Hobbies.php" targertsel>HOBBIES &nbsp;&nbsp; 
 			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
 			<a href="PHP.php" targertsel>PHP Form</center></a>
@@ -104,6 +103,16 @@
 		<br>
 			<br>
 				<br>
+	<center>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+			<a target="_blank" href="babysis.jpg"><img src="babysis.jpg" width="350px" height="250px"> &nbsp;
+			<a target="_blank" href="sb.jpg"><img src="sb.jpg" width="350px" height="250px"> &nbsp;
+			<a target="_blank" href="girlfriends.jpg"><img src="girlfriends.jpg" width="350px" height="250px"> &nbsp; 
+			<br>
+				<br>
+			<a target="_blank" href="travel.jpg"><img src="travel.jpg" width="350px" height="250px"> &nbsp;
+			<a target="_blank" href="cheskadebut.jpg"><img src="cheskadebut.jpg" width="350px" height="250px">
+		</center>
 	<footer>
 		<center>
 		<hr width="70%">
