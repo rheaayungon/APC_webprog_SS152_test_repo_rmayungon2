@@ -157,7 +157,7 @@
 			<a href="Form.php" targetsel>PHP FORM
 		<hr width="60%">
 		<h2>
-			PHP Form Validation
+			Form Validation
 		</h2>
 <div class="transbox"
 		<table align="center" style="font-family:courier; font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
