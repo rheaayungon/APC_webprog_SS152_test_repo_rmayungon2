@@ -137,6 +137,7 @@
 		}
 		.error {color: #FF0000;}
 	</style>
+
 	<script type="text/javascript">
 		function edt_id(id)
 		{
@@ -186,7 +187,7 @@
 			<a href="AboutMe.php" targertsel>ABOUT &nbsp;&nbsp; 
 			<a href="Hobbies.php" targertsel>H & T &nbsp;&nbsp; 
 			<a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
-			<a href="Form.php" targertsel>PHP Form </center></a>
+			<a href="form-home.php" targertsel>PHP Form </center></a>
 		<hr width="60%">
 		<hr width="60%">
 
