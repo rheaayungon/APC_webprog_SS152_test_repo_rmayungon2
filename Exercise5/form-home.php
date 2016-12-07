@@ -70,52 +70,63 @@ if(isset($_GET['delete_id']))
       padding-top: 50px;
     }
     .error {color: #FF0000;}
-  </style>
+    </style>
 	
-  <script type="text/javascript">
-		function edt_id(id)
-		{
-		 if(confirm('Edit this entry?'))
-		 {
-		  window.location.href='edit.php?edit_id='+id;
-		 }
-		}
-		function delete_id(id)
-		{
-		 if(confirm('Delete this entry?'))
-		 {
+    <script type="text/javascript">
+		  function edt_id(id)
+		  {
+		    if(confirm('Edit this entry?'))
+		  {
+		    window.location.href='edit.php?edit_id='+id;
+		  }
+		  }
+		  function delete_id(id)
+		  {
+		  if(confirm('Delete this entry?'))
+		  {
 		  window.location.href='form-home.php?delete_id='+id;
 		 }
 		}
 	</script>
+
 	<body>
-		<div style="text-align:center; margin-top:5em; margin-bottom:-30">
-			<p style="font-family: amethyst; font-size: 50px;"> (metanoia) </p>
-		</div>
+    <head>
+      <div style="padding-left:445px; padding-right:500px;">
+      <img src="lips.png" style="padding-top:1%;position:absolute;align:center;opacity:1.0;filter:alpha(opacity=100)"></a>
+      <img src="img.png" alt="Calligraphy Fonts" style="padding-top:8%;position:relative;top:90;opacity:1.0;filter:alpha(opacity=100)"></a>
+    </div>
+    </head>
 
-		<div id="div.menu">
-			<ul style="font-size:40" id="subcat">
-				<li>
-					<a href="mypage-p.php" id="headlink">main</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				</li>
-				<li>
-					<a href="mypage2-p.php" id="headlink">gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				</li>
-					<li class="dropdown">
-					<a href="#" class="dropbtn">more...</a>
-					<div class="dropdown-content">
-						<a href="mypage1-p.php" id="headlink">profile</a>
-						<a href="trivia-p.php" id="headlink">trivia</a>
-						<a href="form-home.php" id="headlink">form</a>
-					</div>
-				</li>
-			</ul>
-		</div>
+    <br>
+      <br>
+        <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+    <hr width="60%">
+    <hr width="60%">
+      <center><a href="Home.php" targertsel>HOME &nbsp;&nbsp; 
+      <a href="AboutMe.php" targertsel>ABOUT &nbsp;&nbsp; 
+      <a href="Hobbies.php" targertsel>H & T &nbsp;&nbsp; 
+      <a href="Trivia.php" targertsel>TRIVIA &nbsp;&nbsp; 
+      <a href="Form.php" targertsel>PHP Form </center></a>
+    <hr width="60%">
+    <hr width="60%">
 
-
-		<hr size="3px" width="58%" color="black">
-		<hr	size="3px" width="58%" color="black">
-
+    <div class="transbox"
 		<h1 style="font-size: 60px;margin-top:25px"> FORM INDEX </h1>
 		<table cellspacing="7" style="margin-top: -20px">
 			<tr><center>
