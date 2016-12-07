@@ -223,25 +223,17 @@
 		</div>
 		</div>
 
-		<p style="text-align:center">
-			<img src="jolteon-m.gif" alt="pokemon-gif" style="width120px;height:120px">
-			<img src="donut.png" alt="donut" style="width:120px;height:120px">
-			<img src="donut.png" alt="donut" style="width:120px;height:120px">
-			<img src="donut.png" alt="donut" style="width:120px;height:120px">
-			<img src="jolteon.gif" alt="pokemon-gif" style="width:120px;height:120px">
-		</p>
-		
-		<br>
-		<hr>
-
-		<div>
-			<p style="text-align:center; font-family:quicksand; font-size: 20; color:black">- - - Jimenez, Marc Adrian P. | BSCS-CN151 | APC - - -</p>
-			<p style="text-align:center; margin-top:0.5em">
-				<a href="https://www.facebook.com/jumanjimenez" target="_blank"><img src="facebook.jpg" alt= "facebook"style="width:60px;height:60px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="https://twitter.com/_eydriyan" target="_blank"><img src="twitter.jpg" alt="twitter" style="width:60px; height:60px"></a>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="https://www.instagram.com/_eydriyuhn/" target="_blank"><img src="instagram.jpg" alt="instagram" style="width:60px; height:60px"></a> .
-			</p>
-		</div>
+		<footer>
+		<center>
+		<hr width="70%">
+		<hr width="70%">
+			<b><p style="color:black;margin-top:7em;margin-bottom:0.1em;font-size:12px;font-family:courier">copyrights 2016</b></p>
+			<center><p style="margin-top:0.1em;margin-bottom:0.1em">
+				<a href="https://www.facebook.com/rheaayungon/"target="_blank"><img a src="fblogo.png" style="width:50px;height:50px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="https://www.instagram.com/rheaayungon/?hl=en"target="_blank"><img src="iglogo.png" style="width:50px;height:50px;">&nbsp;
+				<a href="https://www.twitter.com/rheaayungon/"target="_blank"><img src="twitterlogo.png" style="width:52px;height:52px;">
+				</a></center>
+		</center>
+	</footer>
 	</body>
 </html>
