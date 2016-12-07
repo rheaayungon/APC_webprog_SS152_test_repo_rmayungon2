@@ -131,6 +131,7 @@
 			p {
 				padding-top: 50px;
 			}
+			.error {color: #FF0000;}
 	</style>
 	<script type="text/javascript">
 		function edt_id(id)
