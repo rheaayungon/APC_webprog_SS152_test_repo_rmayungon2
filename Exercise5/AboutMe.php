@@ -100,7 +100,7 @@
 		<hr width="60%">
 		<hr width="60%">	
 		<h2>
-			"ABOUT ME"
+			"ABOUT"
 		</h2>
 		<br><center><img src="rhea.jpg"width="350px" height="350px"></center></br>
 			<div class="transbox"
