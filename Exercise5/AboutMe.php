@@ -8,11 +8,9 @@
 				background-repeat: no-repeat;
 				background-attachment: fixed;
 			}
-			h2 {
-				font-family:courier;
-				font-size:40px;
-				color:black;
-				text-align:center;
+			h1{
+			text-align:center; 
+			color:black;
 			}
 			a:link {
 				color:black;
@@ -99,9 +97,10 @@
 			<a href="form-home.php" targertsel>PHP Form &nbsp;&nbsp;</center></a>
 		<hr width="60%">
 		<hr width="60%">	
-		<h2>
-			"ABOUT"
-		</h2>
+		<br>
+
+		<h1 style="font-size: 60px;margin-top:25px"> ABOUT </h1>
+
 		<br><center><img src="rhea.jpg"width="350px" height="350px"></center></br>
 			<div class="transbox"
 			<table align="center" style="font-family:courier; font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">

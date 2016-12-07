@@ -8,11 +8,9 @@
 				background-repeat: no-repeat;
 				background-attachment: fixed;
 			}
-			h2 {
-				font-family:courier;
-				font-size:40px;
-				color:black;
-				text-align:center;
+			h1{
+			text-align:center; 
+			color:black;
 			}
 			a:link {
 				color:black;
@@ -93,9 +91,10 @@
 			<a href="form-home.php" targertsel>PHP Form </center></a>
 		<hr width="60%">
 		<hr width="60%">
-		<h2>
-			"HOBBIES"
-		</h2>
+		
+		<br>
+		<h1 style="font-size: 60px;margin-top:25px"> HOBBIES </h1>
+
 			<div class="transbox"
 			<table align="center" style="font-family:courier;font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
 				<link rel="stylesheet2" type="text/css" href="stylesheet2.css">
@@ -131,9 +130,8 @@
 		</div>
 		<br>
 		<br>
-		<h2>
-			"INTEREST"
-		</h2>
+		
+		<h1 style="font-size: 60px;margin-top:25px"> INTEREST </h1>
 			<div class="transbox"
 			<table align="center" style="font-family:courier;font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
 				<link rel="stylesheet2" type="text/css" href="stylesheet2.css">
