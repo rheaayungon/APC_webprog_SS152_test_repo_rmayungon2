@@ -78,13 +78,13 @@
 <html>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
-		WEBPROG-Excercise5
+		MIRIFICAL
 	</title>
 	<style>
 		body{
-			background-image: url("clouds-bg.png");
+			background-image: url("bg.jpg");
+			background-repeat: no-repeat;
 			background-attachment: fixed;
-			font-family: quicksand;
 		}
 		h1{
 			text-align:center; 
