@@ -37,11 +37,9 @@
 				font-family:courier;
 				font-size:20px;
 			}
-			h2 {
-				font-family:courier;
-				font-size:40px;
-				color:black;
-				text-align:center;
+			h1{
+			text-align:center; 
+			color:black;
 			}
 			p {
 				font-family:courier;
@@ -104,9 +102,8 @@
 			<a href="form-home.php" targertsel>PHP Form</center></a>
 		<hr width="60%">
 		<hr width="60%">
-		<h2>
-			"TRIVIAS"
-		</h2>
+		<br>
+		<h1 style="font-size: 60px;margin-top:25px"> TRIVIA </h1>
 		<div class="transbox"
 		<table align="center" style="font-family:courier; font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
 		<p><b><center>What website did Rhea visits when she wants to watch movies?</b>

@@ -135,6 +135,10 @@
 		p {
 			padding-top: 50px;
 		}
+		p{
+			text-align: center;
+			font-size: 30;
+		}
 		.error {color: #FF0000;}
 	</style>
 
@@ -223,10 +227,10 @@
 				Comment: <br>
 				<textarea name="comment" placeholder="insert comment here" rows="3" cols="30"></textarea>
 			</p>
-			<button type="submit" name="btn-save"><strong>SAVE</strong>
+			<center><button type="submit" name="btn-save"><strong>SAVE</strong></center>
 			</form>
 		</div>
-		
+
 		<footer>
 		<center>
 		<hr width="70%">

@@ -189,6 +189,9 @@ if(isset($_GET['delete_id']))
 			</tr>
 		</table>
 
+  <br>
+  <br>
+  <br>
 	<footer>
     <center>
     <hr width="70%">
