@@ -191,8 +191,7 @@
 		<hr width="60%">
 		<hr width="60%">
 
-		<div class="transbox"
-		<h1 style="font-size:60px;margin-top:25px">ADD DATA</h1>
+		<h1 style="font-size:30px;margin-top:25px">ADD DATA</h1>
 		<div class="transbox" style="margin-top:-20px">
 			<form method="post">
 			<p><a href="form-home.php"><strong>*back to main page*</strong></a> 
@@ -227,8 +226,7 @@
 			<button type="submit" name="btn-save"><strong>SAVE</strong>
 			</form>
 		</div>
-		</div>
-
+		
 		<footer>
 		<center>
 		<hr width="70%">
