@@ -56,9 +56,9 @@ if(isset($_GET['delete_id']))
     table {
       font-family: quicksand;
       width: 100%;
-      font-size: 25;
-      padding-left: 70;
-      padding-right: 70;
+      font-size: 15;
+      padding-left: 50;
+      padding-right: 50;
     }
     th{
       background:#FFD1DC;
@@ -66,7 +66,7 @@ if(isset($_GET['delete_id']))
     td, th {
       border: 3px solid #000000;
       text-align: left;
-      padding: 10px;
+      padding: 5px;
     }
     td{
       background-color: rgba(255,255,255,.5);
@@ -148,14 +148,14 @@ if(isset($_GET['delete_id']))
 		<h1 style="font-size: 60px;margin-top:25px"> FORM INDEX </h1>
 		<table cellspacing="7" style="margin-top: -20px">
 			<tr><center>
-				<th style="font-size:30"><b>Name</b></th>
-				<th style="font-size:30"><b>Nickname</b></th>
-				<th style="font-size:30"><b>E-mail</th>
-				<th style="font-size:30"><b>Home</b></th>
-				<th style="font-size:30"><b>Gender</th>
-				<th style="font-size:30"><b>Mobile</th>
-				<th style="font-size:30"><b>Comment</th>
-				<th style="font-size:30" colspan="2"><b>etc..</b></th>
+				<th style="font-size:20"><b>Name</b></th>
+				<th style="font-size:20"><b>Nickname</b></th>
+				<th style="font-size:20"><b>E-mail</th>
+				<th style="font-size:20"><b>Home</b></th>
+				<th style="font-size:20"><b>Gender</th>
+				<th style="font-size:20"><b>Mobile</th>
+				<th style="font-size:20"><b>Comment</th>
+				<th style="font-size:20" colspan="2"><b>etc..</b></th>
 			</center></tr>
 			<?php
 				$sql_query="SELECT * FROM users";
