@@ -147,14 +147,13 @@ if(isset($_GET['delete_id']))
 		<h1 style="font-size: 60px;margin-top:25px"> FORM INDEX </h1>
 		<table cellspacing="7" style="margin-top: -20px">
 			<tr><center>
-				<th style="font-size:20"><b>Name</b></th>
-				<th style="font-size:20"><b>Nickname</b></th>
-				<th style="font-size:20"><b>E-mail</th>
-				<th style="font-size:20"><b>Home</b></th>
-				<th style="font-size:20"><b>Gender</th>
-				<th style="font-size:20"><b>Mobile</th>
-				<th style="font-size:20"><b>Comment</th>
-				<th style="font-size:20" colspan="2"><b>etc..</b></th>
+				<th style="font-size:20"><center><b>Name</b></center></th>
+				<th style="font-size:20"><center><b>Nickname</b></center></th>
+				<th style="font-size:20"><center><b>E-mail</b></center></th>
+				<th style="font-size:20"><center><b>Home</b></center></th>
+				<th style="font-size:20"><center><b>Gender</b></center></th>
+				<th style="font-size:20"><center><b>Mobile</b></center></th>
+				<th style="font-size:20"><center><b>Comment</b></center></th>
 			</center></tr>
 			<?php
 				$sql_query="SELECT * FROM users";

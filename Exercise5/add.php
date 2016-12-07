@@ -133,11 +133,12 @@
 			color: #000000;
 		}
 		p {
-			padding-top: 50px;
+			padding-top: 20px;
 		}
 		p{
 			text-align: center;
-			font-size: 30;
+			font-size: 18;
+			font-family: courier;
 		}
 		.error {color: #FF0000;}
 	</style>
