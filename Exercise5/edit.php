@@ -145,6 +145,11 @@
 		p {
 			padding-top: 50px;
 		}
+		p{
+			text-align: center;
+			font-size: 18;
+			font-family: courier;
+		}
 		.error {color: #FF0000;}
 	</style>
 	<script type="text/javascript">
@@ -200,7 +205,6 @@
 		<hr width="60%">
 		<hr width="60%">
 
-		<div class="transbox"
 		<h1 style="font-size:60px"> EDIT ENTRY </h1>
 		<div class="transbox">
 			<form method="post">
@@ -221,7 +225,7 @@
 					<input type="text" name="city_name" placeholder="City"  value="<?php echo $fetched_row['user_city']; ?>" required>
 					<br><br>
 					Gender: <br>
-					<input type="radio" name="gender" <?php if ($fetched_row['gender']=="Female") echo "checked";?> value="Female">&nbsp;<img src="female.png" style="width:15px;height:25.5px" title="Female">
+					<input type="radio" name="gender" <?php if ($fetched_row['gender']=="Female") echo "checked";?> value="Female">&nbsp;<img src="female.png" style="width:35px;height:30px" title="Female">
 					<input type="radio" name="gender" <?php if ($fetched_row['gender']=="Male") echo "checked";?> value="Male" title="Male"><img src="male.png" style="width:30px;height:30px" title="Male">
 					<br><br>
 					Mobile: <span class="error">* <?php echo $mobileErr;?></span><br>
