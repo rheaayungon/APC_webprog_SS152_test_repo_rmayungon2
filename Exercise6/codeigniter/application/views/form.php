@@ -129,3 +129,49 @@ window.location="<?php echo base_url();?>index.php/control/"+act+"/"+gotoid;
       <a href="<?php echo base_url();?>index.php/control/form" targertsel>PHP Form </center></a>
     <hr width="60%">
     <hr width="60%">
+
+    <h1 style="font-size: 60px;margin-top:25px"> FORM INDEX </h1>
+    <table cellspacing="7" style="margin-top: -20px">
+      <tr><center>
+        <th style="font-size:20"><center><b>Name</b></center></th>
+        <th style="font-size:20"><center><b>Nickname</b></center></th>
+        <th style="font-size:20"><center><b>E-mail</b></center></th>
+        <th style="font-size:20"><center><b>Home</b></center></th>
+        <th style="font-size:20"><center><b>Gender</b></center></th>
+        <th style="font-size:20"><center><b>Mobile</b></center></th>
+        <th style="font-size:20"><center><b>Comment</b></center></th>
+      </center></tr>
+      <?php foreach ($user_list as $u_key){ ?>
+
+      <tr>
+
+        <td><b><?php echo $u_key->last_name; ?></b>, <?php echo $u_key->first_name; ?></td>
+
+        <td><?php echo $u_key->nickname; ?></td>
+
+        <td><?php echo $u_key->email; ?></td>
+
+        <td><?php echo $u_key->user_city; ?></td>
+        
+        <td><?php echo $u_key->gender; ?></td>
+        
+        <td><?php echo $u_key->mobile; ?></td>
+        
+        <td><?php echo $u_key->comment; ?></td>
+
+        <td width="40" align="left" ><a href="#" onClick="show_confirm('edit',<?php echo $u_key->user_id;?>)"><img src="<?php echo base_url();?>img/edit.png" style="width:30px;height:30px;" title="edit" align="EDIT""></a></td>
+
+        <td width="40" align="left" ><a href="#" onClick="show_confirm('delete',<?php echo $u_key->user_id;?>)"><img src="<?php echo base_url();?>img/drop.png" style="width:30px;height:30px" title="delete" align="DELETE""></a></td>
+
+      </tr>
+
+<?php }?>
+      <tr><td style="border:none; background:none">&nbsp;</td></tr>
+      <tr>
+        <th colspan="9" style="text-align:center" class = "add"><a href="<?php echo base_url();?>index.php/control/add_form"><center>add data here</center></a></th>
+      </tr>
+    </table>
+
+  <br>
+  <br>
+  <br>
