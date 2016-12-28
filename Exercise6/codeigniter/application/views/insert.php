@@ -65,3 +65,11 @@
 		}
 		.error {color: #FF0000;}
 	</style>
+</script>
+	<body>
+		<head>
+			<div style="padding-left:445px; padding-right:500px;">
+			<img src="<?php echo base_url();?>img/lips.png" style="padding-top:1%;position:absolute;align:center;opacity:1.0;filter:alpha(opacity=100)"></a>
+			<img src="<?php echo base_url();?>img/img.png" alt="Calligraphy Fonts" style="padding-top:8%;position:relative;top:90;opacity:1.0;filter:alpha(opacity=100)"></a>
+		</div>
+		</head>
