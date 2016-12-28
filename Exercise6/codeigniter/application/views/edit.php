@@ -93,3 +93,56 @@
 					<br>
 					<br>
 					<br>
+		<hr width="60%">
+		<hr width="60%">
+			<center><a href="<?php echo base_url();?>index.php" targertsel>HOME &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/about" targertsel>ABOUT &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/hobbies" targertsel>H & T &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/trivia" targertsel>TRIVIA &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/form" targertsel>PHP Form </center></a>
+		<hr width="60%">
+		<hr width="60%">
+		<br>
+		<h1 style="font-size:30px;margin-top:25px">ADD DATA</h1>
+		<br>
+		<div class="transbox" style="margin-top:-20px">
+			<form method="post" action="<?php echo base_url();?>index.php/control/update">
+			<?php
+				extract($users);
+			?>
+			<p>
+				<br>
+				<br>
+				First Name: <span class="error">*</span><br>
+				<input type="text" name="first_name" placeholder="First Name" value="<?php echo $first_name; ?>" required />
+				<br><br>
+				Last Name: <span class="error">*</span><br>
+				<input type="text" name="last_name" placeholder="Last Name" value="<?php echo $last_name; ?>" required />
+				<br><br>
+				Nickname: <span class="error">*</span><br>
+				<input type="text" name="nickname" placeholder="Nickname" value="<?php echo $nickname; ?>" required />
+				<br><br>
+				Email: <span class="error">*</span><br>
+				<input type="text" name="email" placeholder="Email Address" value="<?php echo $email; ?>" required />
+				<br>
+				<br>
+				Home: <br>
+				<input type="text" name="user_city" placeholder="City" value="<?php echo $user_city; ?>" required />
+				<br><br>
+				Gender: <br>
+				<input type="radio" name="gender" value="female" title="Female">&nbsp;<img src="<?php echo base_url();?>img/female.png" style="width:35px;height:30px" title="Female">
+				<input type="radio" name="gender" value="male" title="Male"><img src="<?php echo base_url();?>img/male.png" style="width:30px;height:30px" title="Male">
+				<br><br>
+				Mobile: <span class="error">*</span><br>
+				<input type="text" name="mobile" placeholder="Mobile Num" value="<?php echo $mobile; ?>" required />
+				<br><br>
+				Comment: <br>
+				<textarea name="comment" placeholder="insert comment here"rows="3" cols="30"><?php echo $comment; ?></textarea>
+			</p>
+			<center>
+			<input type="hidden" name="user_id" value="<?php echo $user_id; ?>" />
+			<button type="submit" name="submit" value="Update" /><strong>UPDATE</strong></button>
+			<button type="submit" name="btn-cancel"><strong>Cancel</strong></button>
+			</center>
+</form>
+		</div>
