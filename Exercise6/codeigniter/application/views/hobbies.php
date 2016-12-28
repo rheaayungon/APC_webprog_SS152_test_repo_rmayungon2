@@ -94,3 +94,39 @@
 		
 		<br>
 		<h1 style="font-size: 60px;margin-top:25px"> HOBBIES </h1>
+
+			<div class="transbox"
+			<table align="center" style="font-family:courier;font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
+				<link rel="stylesheet2" type="text/css" href="<?php echo base_url();?>css/stylesheet2.css">
+				<table align="center" style="font-family:courier; font-size:18px; color:black" cellspacing="7">
+					<tr>
+						<th style="font-size:25px; padding-top:30px;padding-left:20px;padding-right:20px">
+							<b>HOBBY</b></th>
+						<th style="font-size:25px; padding-top:30px;padding-left:20px;padding-right:20px">
+							<b>DESCRIPTION</b></th>
+						<th style="font-size:25px; padding-top:30px;padding-left:20px;padding-right:20px">
+							<b>LINK</b></th>
+					</tr>
+					<tr>
+						<td style="padding-left:20px;padding-left:20px">
+							<b>Watching Movies</b></td>
+						<td style="text-align:center; font-size:18px">
+							<p>Ever since, I love to watch movies. Comedy,
+							romance and action is the genre that I love to watch.</p></td>
+						<td style="color:black font-size:18px;text-align:center;padding-right:20px">
+							<a href="http://itvmovie.se/" target="_blank">iTVMovie</a></td>
+					</tr>
+					<tr>
+						<td style="padding-left:20px;padding-left:20px">
+							<b>Watching K-Drama</b></td>
+						<td style="text-align:center; font-size:18px">
+							<p>My sister introduced me the Korean Drama since I was in elementary or highschool, 
+							I guess. K-drama gives me an impact. Every story or drama is worth watching.</p></td>
+						<td style="color:black font-size:18px;text-align:center;padding-right:20px">
+							<a href="http://hdfree.se/" target="_blank">HDFree</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<br>
+		<br>
