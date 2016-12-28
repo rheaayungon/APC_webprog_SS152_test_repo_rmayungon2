@@ -91,3 +91,27 @@
 		<br>
 			<br>
 				<br>
+				<br>
+		<div class="transbox"
+		<table align="center" style="font-family:courier; font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
+			<p>This is my new blog that I created for school purposes.
+			<br>
+			But if you want to know more something about me.
+			<br>
+			You are free to check all my post. Enjoy!</p>
+			</div>
+		</div>
+		<br>
+			<br>
+				<br>
+		<center>
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/stylesheet.css">
+			<a target="_blank" href="babysis.jpg"><img src="<?php echo base_url();?>img/babysis.jpg" width="350px" height="250px"> &nbsp;
+			<a target="_blank" href="sb.jpg"><img src="<?php echo base_url();?>img/sb.jpg" width="350px" height="250px"> &nbsp;
+			<a target="_blank" href="girlfriends.jpg"><img src="<?php echo base_url();?>img/girlfriends.jpg" width="350px" height="250px"> &nbsp; 
+			<br>
+				<br>
+			<a target="_blank" href="travel.jpg"><img src="<?php echo base_url();?>img/travel.jpg" width="350px" height="250px"> &nbsp;
+			<a target="_blank" href="cheskadebut.jpg"><img src="<?php echo base_url();?>img/cheskadebut.jpg" width="350px" height="250px">
+		</center>
+		<br>
