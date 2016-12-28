@@ -54,3 +54,40 @@
 				padding-top: 50px;
 			}
 		</style>
+		<head>
+			<div style="padding-left:445px; padding-right:500px;">
+			<img src="<?php echo base_url();?>img/lips.png" style="padding-top:1%;position:absolute;align:center;opacity:1.0;filter:alpha(opacity=100)"></a>
+			<img src="<?php echo base_url();?>img/img.png" alt="Calligraphy Fonts" style="padding-top:8%;position:relative;top:90;opacity:1.0;filter:alpha(opacity=100)"></a>
+		</div>
+		</head>
+		<br>
+			<br>
+				<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+		<hr width="60%">
+		<hr width="60%">
+			<center><a href="<?php echo base_url();?>index.php" targertsel>HOME &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/about" targertsel>ABOUT &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/hobbies" targertsel>H & T &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/trivia" targertsel>TRIVIA &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/form" targertsel>PHP Form </center></a>
+		<hr width="60%">
+		<hr width="60%">
+		<br>
+			<br>
+				<br>
