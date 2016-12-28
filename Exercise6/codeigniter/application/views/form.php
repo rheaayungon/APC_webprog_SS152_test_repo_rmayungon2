@@ -78,3 +78,17 @@
     }
     .error {color: #FF0000;}
     </style>
+
+<script type="text/javascript">
+function show_confirm(act,gotoid)
+{
+if(act=="edit")
+var r=confirm("Edit this entry?");
+else
+var r=confirm("Delete this entry?");
+if (r==true)
+{
+window.location="<?php echo base_url();?>index.php/control/"+act+"/"+gotoid;
+}
+}
+</script>
