@@ -73,3 +73,69 @@
 			<img src="<?php echo base_url();?>img/img.png" alt="Calligraphy Fonts" style="padding-top:8%;position:relative;top:90;opacity:1.0;filter:alpha(opacity=100)"></a>
 		</div>
 		</head>
+
+		<br>
+			<br>
+				<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+		<hr width="60%">
+		<hr width="60%">
+			<center><a href="<?php echo base_url();?>index.php" targertsel>HOME &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/about" targertsel>ABOUT &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/hobbies" targertsel>H & T &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/trivia" targertsel>TRIVIA &nbsp;&nbsp; 
+			<a href="<?php echo base_url();?>index.php/control/form" targertsel>PHP Form </center></a>
+		<hr width="60%">
+		<hr width="60%">
+		<br>
+		<h1 style="font-size:30px;margin-top:25px">ADD DATA</h1>
+		<br>
+		<div class="transbox" style="margin-top:-20px">
+			<form method="post" action="<?php echo base_url();?>index.php/control/insert_users_db">
+			<p><a href="<?php echo base_url();?>index.php/control/form"><strong>*back to main page*</strong></a> 
+				<br>
+				<br>
+				First Name: <span class="error">*</span><br>
+				<input type="text" name="first_name" placeholder="First Name" required>
+				<br><br>
+				Last Name: <span class="error">*</span><br>
+				<input type="text" name="last_name" placeholder="Last Name" required>
+				<br><br>
+				Nickname: <span class="error">*</span><br>
+				<input type="text" name="nickname" placeholder="Nickname" required>
+				<br><br>
+				Email: <span class="error">*</span><br>
+				<input type="text" name="email" placeholder="Email Address" required>
+				<br>
+				<br>
+				Home: <br>
+				<input type="text" name="user_city" placeholder="City" required>
+				<br><br>
+				Gender: <br>
+				<input type="radio" name="gender" value="female" title="Female">&nbsp;<img src="<?php echo base_url();?>img/female.png" style="width:35px;height:30px" title="Female">
+				<input type="radio" name="gender" value="male" title="Male"><img src="<?php echo base_url();?>img/male.png" style="width:30px;height:30px" title="Male">
+				<br><br>
+				Mobile: <span class="error">*</span><br>
+				<input type="text" name="mobile" placeholder="Mobile Num" required>
+				<br><br>
+				Comment: <br>
+				<textarea name="comment" placeholder="insert comment here" rows="3" cols="30"></textarea>
+			</p>
+			<center><button type="submit" name="btn-save"><strong>SAVE</strong></button></center>
+			</form>
+		</div>
