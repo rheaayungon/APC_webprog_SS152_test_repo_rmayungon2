@@ -1,0 +1,22 @@
+table, th, td {
+	border: 2px solid black;
+	align: center;
+	}
+	<div style="font-family:courier">
+			table {
+				font-family:courier
+				border-collapse: collapse;
+				width:100%;
+				font-size:20px;
+			}
+			th {
+				border:2px solid black;
+				text-align:center;
+			}
+			td {
+				font-size:15px;
+				border:2px solid black;
+				padding:15px;
+				margin-left:10px;
+				margin-right:10px;
+			}
