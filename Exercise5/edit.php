@@ -204,9 +204,10 @@
 			<a href="form-home.php" targertsel>PHP Form </center></a>
 		<hr width="60%">
 		<hr width="60%">
-
-		<h1 style="font-size:60px"> EDIT ENTRY </h1>
-		<div class="transbox">
+		<br>
+		<h1 style="font-size:30px"> EDIT ENTRY </h1>
+		<br>
+		<div class="transbox" style="margin-top:-20px">
 			<form method="post">
 				<p>
 					First Name: <span class="error">* <?php echo $first_nameErr;?></span><br>
