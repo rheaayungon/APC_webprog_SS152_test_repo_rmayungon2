@@ -103,3 +103,32 @@
 		<hr width="60%">
 		<hr width="60%">
 		<br>
+		<h1 style="font-size: 60px;margin-top:25px"> TRIVIA </h1>
+		<div class="transbox"
+		<table align="center" style="font-family:courier; font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
+		<p><b><center>What website did Rhea visits when she wants to watch movies?</b>
+			<br><em id="demo1"> ** answer **</em></p>
+			<button class="button button1"
+				onclick="document.getElementById('demo1').innerHTML = 'itvmovie && hdfree'"> answer </center></button>
+				
+			<p><b><center>My favorite color?</b>
+			<br><em id="demo2"> ** answer **</em></p>
+			<button class="button button1"
+				onclick="document.getElementById('demo2').innerHTML = 'pink'"> answer </center></button>
+				
+			<p><b><center>What would be my favorite desserts?</b>
+			<br><em id="demo3"> ** answer **</em></p>
+			<button class="button button1"
+				onclick="document.getElementById('demo3').innerHTML = 'ice cream, cake, doughnuts'"> answer </center></button>
+				
+			<p><b><center>Other than sleeping, what other things I do when I am free</b>
+			<br><em id="demo4"> ** answer **</em></p>
+			<button class="button button1"
+				onclick="document.getElementById('demo4').innerHTML = 'sleep or travel'"> answer </center></button></p>
+			
+			<p><b><center>Am I the youngest child in my family?</b>
+			<br><em id="demo5"> ** answer **</em></p>
+			<button class="button button1"
+				onclick="document.getElementById('demo5').innerHTML = 'NO'"> answer </center></button></p>
+			</div>
+		</div>
