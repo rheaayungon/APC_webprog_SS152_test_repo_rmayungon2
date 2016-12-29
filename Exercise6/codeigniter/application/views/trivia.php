@@ -132,3 +132,19 @@
 				onclick="document.getElementById('demo5').innerHTML = 'NO'"> answer </center></button></p>
 			</div>
 		</div>
+
+	<footer>
+		<center>
+		<hr width="70%">
+		<hr width="70%">
+			<b><p style="color:black;margin-top:7em;margin-bottom:0.1em;font-size:12px;font-family:courier">copyrights 2016</b></p>
+			<center><p style="margin-top:0.1em;margin-bottom:0.1em">
+				<a href="https://www.facebook.com/rheaayungon/"target="_blank"><img a src="<?php echo base_url();?>img/fblogo.png" style="width:50px;height:50px;opacity:1.0;filter:alpha(opacity=100)"></a>&nbsp;
+				<a href="https://www.instagram.com/rheaayungon/?hl=en"target="_blank"><img src="<?php echo base_url();?>img/iglogo.png" style="width:50px;height:50px;;opacity:1.0;filter:alpha(opacity=100)">&nbsp;
+				<a href="https://www.twitter.com/rheaayungon/"target="_blank"><img src="<?php echo base_url();?>img/twitterlogo.png" style="width:52px;height:52px;;opacity:1.0;filter:alpha(opacity=100)">
+				</a></center>
+	</footer>
+	</body>
+</html>
+
+
