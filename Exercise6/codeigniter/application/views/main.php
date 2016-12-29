@@ -91,7 +91,6 @@
 		<br>
 			<br>
 				<br>
-				<br>
 		<div class="transbox"
 		<table align="center" style="font-family:courier; font-size:18px;margin-top:2em;margin-bottom:4em;border:2px">
 			<p>This is my new blog that I created for school purposes.
