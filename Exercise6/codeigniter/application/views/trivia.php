@@ -68,3 +68,9 @@
 				padding-top: 10px;
 			}
 		</style>
+		<head>
+			<div style="padding-left:445px; padding-right:500px;">
+			<img src="<?php echo base_url();?>img/lips.png" style="padding-top:1%;position:absolute;top:0;align:center"></a>
+			<img src="<?php echo base_url();?>img/img.png" alt="Calligraphy Fonts" style="padding-top:8%; position:relative ;top:90"></a>
+		</div>
+		</head>
